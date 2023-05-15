@@ -9,4 +9,4 @@ jobs:
         with:
           java-version: 17
       - name: verify
-        run: mvn -B verify
+        run: mvn -B verify --file backend/pom.xml
