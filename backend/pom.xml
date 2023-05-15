@@ -11,6 +11,12 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-boot-react-bundle-backend</name>
     <description>Demo to deploy frontend and backend</description>
+
+    <properties>
+        <sonar.organization>bartfastiel-github</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
